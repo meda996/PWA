@@ -5,14 +5,35 @@
 
     <title>Ristorante Con Fusion: About Us</title>
 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/jquery/jquery.min.js">
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top" >
+        <div class="container">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <span class="navbar-toggler-icon"> </span>
+              </button>
+            <a class="navbar-brand mr-auto" href="./index.html"> Ristorante Con Fusion</a>
+            <div class="collapse" id="collapseExample">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item "><a class="nav-link" href="./index.html"> Home </a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./aboutus.html"> About </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Menu </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Contact </a></li>
+                </ul>
+            </div>
+            
 
+            
+        </div>
+    </nav>
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
+                <div class="col-6 col-sm-6 " c>
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
@@ -23,8 +44,12 @@
     </header>
 
     <div>
-        <div>
-            <div>
+        <div class="container">
+            <div class="row">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html"> Home  </a></li>
+                    <li class="breadcrumb-item active" > About Us</li>
+                </ol>
                <h3>About Us</h3>
                <hr>
             </div>
@@ -63,8 +88,8 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -98,7 +123,9 @@
            </div>
         </div>
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 
 </html>
