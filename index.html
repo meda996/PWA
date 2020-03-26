@@ -47,6 +47,9 @@
                 <div class= "col-12 col-sm align-self-center">
                     <img src="/logo.png" class="img-fluid">
                 </div>
+                <div class="btn col-3  align-self-center"  style=" vertical-align: middle; height: 50px; background-color: rgb(255, 255, 102); border-radius: 8px; border: 1px solid black ;" ><a href="#Reserve">
+                   <h5  style="text-align: center; padding: 5px 0px ; color: black;">Reserve Table</h1></a> 
+                </div>
             </div>
         </div>
     </header>
@@ -60,7 +63,8 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="uthappizza.png" alt="uthappizza">
                     <div class="media-body">
-                    <h2 class="mt-0">Uthappizza</h2>
+                    <h2 class="mt-0">Uthappizza<span class="badge badge-danger ml-1"> HOT</span>
+                    <span class="badge badge-pill badge-secondary">$4.99</span></h2>
                     <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p> 
                     </div>
                 </div>
@@ -73,8 +77,15 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm  col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                <h2 class="mt-0">Weekend Grand Buffet <span class="badge  badge-danger">NEW</span></h2>
+                 <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                
+            </div>
+            <img class="d-flex mr-0 img-thumbnail align-self-center" src="buffet.png" >
+               
+        </div>
             </div>
         </div>
 
@@ -94,6 +105,44 @@
                 </div>
                 </div>
         </div>
+    </div>
+    <div class="card col-sm-8 offset-2" id ="Reserve">
+        <h3 class="card-header" style="background-color: yellow; color: whitesmoke;">Reserve a table </h2>
+            <div class="card card-body" style="text-align: left;">
+                <dl class="row">
+                    <dt class="col-2">Number of Guests</dt>
+                    <dd class="col-6" id="radiosi">
+                        <form >
+                        <label class="radio-inline"><input type="radio" name="optradio"> 1 </label>
+                        <label class="radio-inline"><input type="radio" name="optradio"> 2 </label>
+                        <label class="radio-inline"><input type="radio" name="optradio"> 3 </label>
+                        <label class="radio-inline"><input type="radio" name="optradio"> 4 </label>
+                        <label class="radio-inline"><input type="radio" name="optradio"> 5 </label>
+                        <label class="radio-inline"><input type="radio" name="optradio"> 6 </label>
+                    </form>
+                    </dd>
+                </dl>
+                <dl class="row">
+                    <dt class="col-2">
+                        Date and Time
+                    </dt>
+                    <dd class="col-6">
+                       
+                    <form class=" form-inline">
+                       <label ><input type="text" alt="Date" name="Date" placeholder ="Date"></label> 
+                       <label"><input type="text" alt="Date" name="Date" placeholder ="Time"></label> 
+                    </form>
+                   
+                        </dd>
+                    </dt>
+                </dl>
+                <dl class="row">
+                    <dr class="offset-2">
+                        <button class="btn btn-primary" style="border-radius: 2px;"> Reserve</button>
+                    </dr>
+                </dl>
+            </div>
+            
     </div>
 
     <footer class="footer">
