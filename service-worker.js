@@ -1,5 +1,5 @@
 // Set a name for the current cache
-var cacheName = 'v1'; 
+var cacheName = 'v2'; 
 
 // Default files to always cache
 var cacheFiles = [
@@ -9,7 +9,11 @@ var cacheFiles = [
   './contactus.html',
 	'./app.js',
 	'./css/styles.less',
-	'./css/style.css'
+  './css/style.css',
+  './alberto.png',
+  './logo.png',
+  './buffet.png',
+  './utahpizza.png'
 	
 ]
 
