@@ -5,8 +5,6 @@ var cacheName = 'v1';
 var cacheFiles = [
 	'./',
   './index.html',
-  './aboutus.html',
-  './contactus.html',
 	'./app.js'
 
 ]
